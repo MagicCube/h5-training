@@ -1,0 +1,70 @@
+@import "normalize.less";
+
+*
+{
+    box-sizing: border-box;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    > .frame
+    {
+        @header-height: 100px;
+        @footer-height: 50px;
+        @nav-width: 30%;
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+
+        > .header, > .footer
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        > .header
+        {
+            color: white;
+            background: #0767c8;
+            height: @header-height;
+        }
+
+        > .body
+        {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: row;
+
+            > *
+            {
+                padding: 15px;
+            }
+
+            > nav
+            {
+                width: @nav-width;
+                background: #efefef;
+            }
+
+            > main
+            {
+                flex-grow: 1;
+            }
+        }
+
+        > .footer
+        {
+            background: silver;
+            height: @footer-height;
+        }
+    }
+}

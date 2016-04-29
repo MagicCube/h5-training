@@ -1,0 +1,29 @@
+{
+  "name": "h5-training",
+  "version": "1.0.0",
+  "description": "## Node.js basis Without Node.js, front-end is nothing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicCube/h5-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicCube/h5-training/issues"
+  },
+  "homepage": "https://github.com/MagicCube/h5-training#readme",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-less": "^3.0.5",
+    "gulp-watch": "^4.3.5",
+    "run-sequence": "^1.1.5"
+  }
+}

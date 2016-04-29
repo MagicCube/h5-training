@@ -1,16 +1,7 @@
-# Lesson 2 - Henry's Front-end Training
+# Lesson 3 - Henry's Front-end Training
 
-## Node.js basis
-Without Node.js, front-end is nothing.
-
-## NPM basis
-Use NPM to manage your project and dependencies.
-
-## ES6 basis
-With [Babel](http://babeljs.io/), we are now able to use the latest ES6/ES7/ES2015/ES2017 to develop web applications.
-
-## Git basis
-Everything you have to learn about git.
-
-## Gulp basis
-A first step to front-end engineering.
+## SAP UI5
+* [Open UI5](http://openui5.org/getstarted.html)
+* [API Document](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html)
+    * [sap.ui](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html)
+    * [sap.ui.base.ManagedObject](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.base.ManagedObject.html)
